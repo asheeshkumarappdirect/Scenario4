@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>ContentFilters</key>
+	<dict/>
+	<key>auto_connect</key>
+	<true/>
+	<key>data</key>
+	<dict>
+		<key>connection</key>
+		<dict>
+			<key>database</key>
+			<string>ShoppingCart</string>
+			<key>host</key>
+			<string>127.0.0.1</string>
+			<key>name</key>
+			<string>root@127.0.0.1</string>
+			<key>port</key>
+			<integer>3306</integer>
+			<key>rdbms_type</key>
+			<string>mysql</string>
+			<key>sslCACertFileLocation</key>
+			<string></string>
+			<key>sslCACertFileLocationEnabled</key>
+			<integer>0</integer>
+			<key>sslCertificateFileLocation</key>
+			<string></string>
+			<key>sslCertificateFileLocationEnabled</key>
+			<integer>0</integer>
+			<key>sslKeyFileLocation</key>
+			<string></string>
+			<key>sslKeyFileLocationEnabled</key>
+			<integer>0</integer>
+			<key>type</key>
+			<string>SPTCPIPConnection</string>
+			<key>useSSL</key>
+			<integer>0</integer>
+			<key>user</key>
+			<string>root</string>
+		</dict>
+		<key>session</key>
+		<dict>
+			<key>connectionEncoding</key>
+			<string>latin1</string>
+			<key>contentFilter</key>
+			<dict/>
+			<key>contentPageNumber</key>
+			<integer>1</integer>
+			<key>contentSelection</key>
+			<data>
+			YnBsaXN0MDDUAQIDBAUGNjdYJHZlcnNpb25YJG9iamVjdHNZJGFy
+			Y2hpdmVyVCR0b3ASAAGGoK0HCBUWFxgZHSQoLDA0VSRudWxs0wkK
+			CwwQFFdOUy5rZXlzWk5TLm9iamVjdHNWJGNsYXNzow0OD4ACgAOA
+			BKMREhOABYAGgAiADFR0eXBlVHJvd3NUa2V5c18QJlNlbGVjdGlv
+			bkRldGFpbFR5cGVQcmltYXJ5S2V5ZWREZXRhaWxz0wkKCxobHKCg
+			gAfSHh8gIVokY2xhc3NuYW1lWCRjbGFzc2VzXxATTlNNdXRhYmxl
+			RGljdGlvbmFyeaMgIiNcTlNEaWN0aW9uYXJ5WE5TT2JqZWN00goL
+			JSehJoAJgAvSCykqK1lOUy5zdHJpbmeACldVc2VyX0lk0h4fLS5f
+			EA9OU011dGFibGVTdHJpbmejLS8jWE5TU3RyaW5n0h4fMTJeTlNN
+			dXRhYmxlQXJyYXmjMTMjV05TQXJyYXnSHh8iNaIiI18QD05TS2V5
+			ZWRBcmNoaXZlctE4OVRkYXRhgAEACAARABoAIwAtADIANwBFAEsA
+			UgBaAGUAbABwAHIAdAB2AHoAfAB+AIAAggCHAIwAkQC6AMEAwgDD
+			AMUAygDVAN4A9AD4AQUBDgETARUBFwEZAR4BKAEqATIBNwFJAU0B
+			VgFbAWoBbgF2AXsBfgGQAZMBmAAAAAAAAAIBAAAAAAAAADoAAAAA
+			AAAAAAAAAAAAAAGa
+			</data>
+			<key>contentSortColIsAsc</key>
+			<true/>
+			<key>contentViewport</key>
+			<string>{{1, 0}, {1239, 640}}</string>
+			<key>isToolbarVisible</key>
+			<true/>
+			<key>table</key>
+			<string>Users</string>
+			<key>view</key>
+			<string>SP_VIEW_CONTENT</string>
+			<key>windowVerticalDividerPosition</key>
+			<real>200</real>
+		</dict>
+	</dict>
+	<key>encrypted</key>
+	<false/>
+	<key>format</key>
+	<string>connection</string>
+	<key>queryFavorites</key>
+	<array/>
+	<key>queryHistory</key>
+	<array>
+		<string>create table Orders(OrderId int(10) NOT NULL default '0', Order_UserId int(10) NOT NULL, Order_Date date NOT NULL, Order_Status varchar(255) NOT NULL default 'Pending')</string>
+		<string>create table Products(Product_Id int(10) NOT NULL default '0', Product_Name varchar(255) NOT NULL, Product_Qty int(5) NOT NULL, Product_UnitPrice int(10) NOT NULL default '0')</string>
+		<string>create table Users(User_Id int(10) NOT NULL default '0', User_Name varchar(255) NOT NULL, User_Address text NOT NULL, User_Email varchar(255) NOT NULL)
+
+create table Products(Product_Id int(10) NOT NULL default '0', Product_Name varchar(255) NOT NULL, Product_Qty int(5) NOT NULL, Product_UnitPrice int(10) NOT NULL default '0')</string>
+		<string>varc</string>
+		<string>create table Products(Product_Id int(10) NOT NULL default '0', Product_Name varc</string>
+		<string>create table Users(User_Id int(10) NOT NULL default '0', User_Name varchar(255) NOT NULL, User_Address text NOT NULL, User_Email varchar(255) NOT NULL)
+
+create table Products(Product_Id int(10) default '0', NOT NULL, Product_Name varchar(255) NOT NULL, Product_Qty int(5) NOT NULL, Product_UnitPrice int(10) NOT NULL default '0')</string>
+		<string>create table Users(User_Id int(10) NOT NULL default '0', User_Name varchar(255) NOT NULL, User_Address text NOT NULL, User_Email varchar(255) NOT NULL)
+
+create table Products(Product_Id int(10) default '0' NOT NULL, Product_Name varchar(255) NOT NULL, Product_Qty int(5) NOT NULL, Product_UnitPrice int(10) NOT NULL default '0')</string>
+		<string>create table Users(User_Id int(10) NOT NULL default '0', User_Name varchar(255) NOT NULL, User_Address text NOT NULL, User_Email varchar(255) NOT NULL)</string>
+		<string>create table Users(User_Id int(10) NOT NULL, User_Name varchar(255) NOT NULL, User_Address text NOT NULL, User_Email varchar(255) NOT NULL)</string>
+		<string>create table Products(Product_Id int(10) NOT NULL, Product_Name varchar(255) NOT NULL, Product_Qty int(5) NOT NULL, Product_UnitPrice int(10) NOT NULL default '0')</string>
+		<string>create table OrderDetails(Od_Id int(10) NOT NULL, Od_Product_Id int(10) NOT NULL, Od_Qty int(3) NOT NULL)</string>
+		<string>create table Orders(OrderId int(10) NOT NULL, Order_UserId int(10) NOT NULL, Order_Date date NOT NULL, Order_Status varchar(255) NOT NULL default 'Pending')</string>
+		<string>CREATE TABLE OrderDetails (
+ `Od_Id` int(10) NOT NULL DEFAULT '0',
+ `Od_ProductId` int(11) NOT NULL DEFAULT '0',
+ `Od_Qty` int(11) DEFAULT NULL,
+ PRIMARY KEY (`Od_Id`,`Od_ProductId`)
+)</string>
+		<string>create table OrderDetails (Od_Id int(10) NOT NULL default '0', Od_ProductId int(10) NOT NULL default '0', Od_Qty int(10) default NULL, primary key(Od_Id), Od_ProductId)</string>
+		<string>alter table Products drop column Product_Code</string>
+		<string>Alter table OrderDetails add foreign key(Od_OrderId) references Orders(OrderId)</string>
+		<string>Alter Table OrderDetails add foreign key(Od_Product_Id) references Products(Product_Id)</string>
+		<string>ALTER TABLE Orders ADD  Foreign Key (Order_UserId) references Users(User_Id)</string>
+		<string>create table Users(User_Id int(10) NOT NULL AUTO_INCREMENT, User_Name varchar(255) NOT NULL, User_Address text NOT NULL, User_Email varchar(255) NOT NULL, primary key(User_Id))</string>
+		<string>create table Products(Product_Id int(10) NOT NULL AUTO_INCREMENT, Product_Code varchar(255) NOT NULL, Product_Name varchar(255) NOT NULL, Product_Qty int(5) NOT NULL, Product_UnitPrice int(10) NOT NULL default '0', primary key(Product_Id))</string>
+	</array>
+	<key>rdbms_type</key>
+	<string>mysql</string>
+	<key>rdbms_version</key>
+	<string>5.6.26</string>
+	<key>version</key>
+	<integer>1</integer>
+</dict>
+</plist>
